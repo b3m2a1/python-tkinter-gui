@@ -1,0 +1,5 @@
+repeat 3
+call_animation 'make_and_diamond'
+call 'flash 3'
+end_repeat
+

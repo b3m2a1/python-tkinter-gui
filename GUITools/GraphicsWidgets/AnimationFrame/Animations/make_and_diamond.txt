@@ -1,0 +1,7 @@
+a=make_random pos=(.5,.1) pos_mode='frac'
+move attr(a) .1 .1 mode='frac' repeats=5
+move attr(a) -.1 .1 mode='frac' repeats=5
+move attr(a) -.1 -.1 mode='frac' repeats=5
+move attr(a) .1 -.1 mode='frac' repeats=5
+delete attr(a)
+

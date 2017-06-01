@@ -1,0 +1,10 @@
+a=add_file .1 .9 'spinner' anchor='center' mode='frac';pause 100
+fade_ob attr[a] .5
+save_ob_colors attr[a]
+repeat 15 i
+rotate attr[a] 10 resample='bicubic' rotate_original=False
+tint_ob attr[a] r=25
+move attr[a] .8/35 -.8/35 mode='frac'
+pause 25
+end_repeat
+delete attr[a]

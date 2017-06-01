@@ -1,0 +1,3 @@
+delete 'all'
+a=create_rectangle .25 .25 .75 .75 make_polygon=True fill='purple' outline='black' mode='frac'
+rock_obs attr[a] times=10 steps=20 end_pause=100
